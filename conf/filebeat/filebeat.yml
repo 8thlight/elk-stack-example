@@ -5,4 +5,4 @@ filebeat.inputs:
     - /var/log/*.log
 
 output.logstash:
-  hosts: ["elk-stack_logstash_1:5044"]
+  hosts: ["logstash:5044"]
