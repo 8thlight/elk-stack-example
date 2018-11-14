@@ -1,0 +1,4 @@
+server.name: kibana
+server.host: "0"
+xpack.monitoring.ui.container.elasticsearch.enabled: false
+elasticsearch.url: "http://elk-stack_elastic_1:9200"
